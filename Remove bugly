@@ -1,0 +1,38 @@
+# 移除 bugly
+首先删掉 bugly 整个类
+然后代码搜索
+Lcom/tencent/bugly/
+用
+invoke-static
+相关的正则表达式来清空大部分代码
+然后含
+sget
+那个方法
+    iget-wide v1, p0, Lcom/bilibili/app/authorspace/ui/AuthorSpaceSearchContainerViewModel;->d:J
+
+    sget-object v3, Lcom/tencent/bugly/Bugly;->applicationContext:Landroid/content/Context;
+
+    invoke-static {v3}, Lcom/bilibili/lib/accounts/b;->g(Landroid/content/Context;)Lcom/bilibili/lib/accounts/b;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/bilibili/lib/accounts/b;->J()J
+
+    move-result-wide v5
+
+    cmp-long v3, v1, v5
+
+    if-nez v3, :cond_39
+
+    goto :goto_3a
+
+    :cond_39
+这段清空
+最终剩余的类
+除了 clinit init 方法
+其它带
+return-void
+的都可以清空
+而带 
+-0x1
+值的就返回这个值即可
