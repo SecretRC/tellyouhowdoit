@@ -1,4 +1,4 @@
-# 移除 bugly
+移除 bugly
 首先删掉 bugly 整个类
 然后代码搜索
 Lcom/tencent/bugly/
