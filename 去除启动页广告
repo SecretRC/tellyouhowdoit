@@ -1,0 +1,7 @@
+搜索类名
+Ltv/danmaku/bili/ui/splash/Splash
+找到方法
+isValid()Z
+内容改为
+const/4 v0, 0x0
+return v0
