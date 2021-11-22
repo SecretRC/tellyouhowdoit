@@ -1,0 +1,5 @@
+Dex 代码搜索
+teenagers_mode_show
+对应方法内容更改为
+const/4 v0, 0x0
+return v0
