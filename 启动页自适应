@@ -1,0 +1,4 @@
+哔哩哔哩包含两个启动页
+Xml 搜索
+full_brand_splash
+背景色自己调成自适应，还有一处搜索 axml 的 HotSplash 的样式的父资源的 windowbackground 的引用来找到对应启动页
