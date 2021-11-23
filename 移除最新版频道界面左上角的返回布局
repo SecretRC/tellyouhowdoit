@@ -1,0 +1,12 @@
+Xml 搜索
+com.google.android.material.appbar.AppBarLayout
+再二次搜索
+com.bilibili.magicasakura.widgets.TintView
+找到大小为 1kb 多的那个 Xml
+将
+<com.bilibili.magicasakura.widgets.TintView
+所对应的布局移到
+<com.google.android.material.appbar.AppBarLayout
+上方，同时
+<com.google.android.material.appbar.AppBarLayout
+的布局要屏蔽掉
