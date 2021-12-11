@@ -1,6 +1,5 @@
 哔哩哔哩包含两个启动页
 Xml 搜索字符串
 full_brand_splash
-背景色自己调成自适应，就是 color 里面创建一个新的属性，color—night 里面要有一个，color 也要有一个，它们共有的同一个
-属性，night 对应夜间模式的颜色，非 night 对应日间模式
-还有一处搜索 axml 的 HotSplash 的样式的父资源的 windowbackground 的引用来找到对应启动页
+背景色自己调成自适应，我感觉说了很多人可能还是不懂，直接问我，建议
+还有一处搜索 axml 的 HotSplash 的样式的父资源的 windowbackground 的引用来找到对应启动页，同样这个启动页的背景色要调成自适应
