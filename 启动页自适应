@@ -1,5 +1,5 @@
-哔哩哔哩包含两个启动页
 Xml 搜索字符串
-full_brand_splash
-背景色自己调成自适应，我感觉说了很多人可能还是不懂，直接问我，建议
-还有一处搜索 axml 的 HotSplash 的样式的父资源的 windowbackground 的引用来找到对应启动页，同样这个启动页的背景色要调成自适应
+@id/full_brand_splash
+@id/download_desc
+@id/splash_view
+还有一处搜索 Axml 的 HotSplash 的样式的父资源的背景引用的 Xml，背景色自己调成自适应
