@@ -1,1 +1,5 @@
-
+提供一个快捷修改方案：一键去除更新，去除搜索广告，去除右上角的奇怪推荐（非游戏中心），去除视频弹幕广告，去除 TBS 内核下载，减小闪存占用，移除同城，移除我的页面多余的东西
+你只需要 MT 管理器搜索字符串（大小写要求，完全匹配）
+/x/v2/view/material|/x/resource/top/activity|/x/v2/search/defaultwords|x/v2/search/square|/x/v2/dm/ad|cm_mark|https://app.bilibili.com/x/v2/version/fawkes/upgrade|/x/v2/dataflow/report|x/resource/show/skin|skin_config|skin_info|DynTab|sections|sections_v2|/x/v2/splash/show|/x/resource/show/tab/bubble|bilibili.app.resource.v1.Module|tbs.org
+然后替换成
+/x/intl/feed/index
